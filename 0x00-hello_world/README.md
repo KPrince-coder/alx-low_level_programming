@@ -5,3 +5,4 @@ Project listings and script numbers
 3.Compiles a C file and creates an executable named 'cisfun'.
 4.A C program that prints a statement followed by a newline.
 5.Prints an exact statement as given to the console.
+6.Prints the size of various types on the computer it is compiled and run on.
