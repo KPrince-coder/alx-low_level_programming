@@ -15,10 +15,10 @@ int main(void)
 	long int longSize;
 
 	/*printing the sizes of the various data types*/
-	printf("Size of a char: %zu byte(s)\n", sizeof(charSize));
-	printf("Size of an int: %zu byte(s)\n", sizeof(intSize));
-	printf("Size of a long int: %zu byte(s)\n", sizeof(longSize));
-	printf("Size of a long long int: %zu bytes(s)\n", sizeof(longLongSize));
-	printf("Size of a float: %zu bytes(s)\n", sizeof(floatSize));
+	printf("Size of a char: %zu byte(s)\n", (unsigned long)sizeof(charSize));
+	printf("Size of an int: %zu byte(s)\n", (unsigned long)sizeof(intSize));
+	printf("Size of a long int: %zu byte(s)\n", (unsigned long)sizeof(longSize));
+	printf("Size of a long long int: %zu bytes(s)\n", (unsigned long)sizeof(longLongSize));
+	printf("Size of a float: %zu bytes(s)\n", (unsigned long)sizeof(floatSize));
 	return (0);
 }
