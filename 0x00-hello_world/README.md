@@ -6,3 +6,4 @@ Project listings and script numbers
 4.A C program that prints a statement followed by a newline.
 5.Prints an exact statement as given to the console.
 6.Prints the size of various types on the computer it is compiled and run on.
+7.Generates the assembly code (Intel syntax) of a C code and save it in an output file.
