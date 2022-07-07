@@ -1,11 +1,10 @@
 #include "main.h"
 
+
 /**
  * main - Entry point
  *
- * Description: prints the word '_putchar' without using any built-in function
- *
- * Return: nothing, return void (that's, 0)
+ * Return: nothing, return void
  */
 
 int main(void)

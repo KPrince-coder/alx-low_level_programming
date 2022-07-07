@@ -1,22 +1,20 @@
 #include "main.h"
 
 /**
- * print_alphabet - main entry point to program
- *
- * Description: function prints all lowercase letters
- *
- * Return: returns all lowercase letters
+ * print_alphabet - Entry point
+ * Return:0
  */
 
 void print_alphabet(void)
 {
-	char alpha = 'a';
+	char c = 'a';
 
-	while (alpha <= 'z')
+	while (c <= 'z')
 	{
-		_putchar(alpha);
-		alpha++;
-	}
+		_putchar(c);
+		c++;
 
+	}
 	_putchar('\n');
+
 }
