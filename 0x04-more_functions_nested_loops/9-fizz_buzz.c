@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - main program entry point
@@ -12,7 +11,7 @@ int main(void)
 {
 	int number;
 
-	for (number = 1; number <= 100; number++)
+	for (number = 1; number < 100; number++)
 	{
 		if (number % 3 == 0 || number % 5 == 0)
 		{
@@ -26,7 +25,7 @@ int main(void)
 		else
 			printf("%d ", number);
 	}
-	printf("\n");
+	printf("Buzz\n");
 
 	return (0);
 }
