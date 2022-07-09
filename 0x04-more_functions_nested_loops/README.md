@@ -13,3 +13,4 @@ Projects on C - more functions, more nested loops
   multiples of five print 'Buzz'.
   For numbers which are multiples of both three and five print 'FizzBuzz'.
 10.Prints a triangle, followed by a new line.
+11.Prints the largest prime factor a number.
